@@ -1,3 +1,6 @@
+
+const core = require("@actions/core");
+
 async function run() {
     try {
       const issueTitle = core.getInput("issue-title");
